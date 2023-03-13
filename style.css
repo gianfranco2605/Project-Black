@@ -1,0 +1,418 @@
+:root {
+    --background: rgb(10, 9, 9);
+    --fonts-h: blue;
+    --fonts-p: white;
+
+}
+
+
+
+body {
+    font-size: 0.9em !important;
+    font-family: 'IBM Plex Mono', monospace;            
+    background-color: black;
+    color: white ! important;
+  
+}
+
+/* MAIN */
+
+.main {
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.528)), url(./img/moon.jpg)!important;
+    background-size: cover !important;
+    background-position: center !important;
+    font-family: 'Zen Dots', cursive; /*robot*/
+    background-repeat: no-repeat !important;
+  
+    
+
+} 
+
+h2, h3 {
+
+  color: var(--fonts-h);
+}
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 700px) {
+     .iconmoon-nav {
+      display: none !important;
+     }
+
+     .img-missile {
+      display: none;
+     }
+
+     .livnav-custum {
+      border-bottom: 1px solid white;
+      margin-top: -3px;
+      margin-bottom: -3px;
+      margin-left: 5px;
+      
+     }
+
+     .div-img-custum {
+      display: none !important;
+     }
+}
+
+@media screen and (min-width: 700px) {
+    .div-custum {
+        height: 50px !important;
+        max-height: auto !important;
+       
+
+    
+    }
+
+    .div-custum { 
+      display: flex !important;
+      justify-content: center !important;
+      align-items: baseline !important;
+      flex-direction: column !important;
+      
+    }
+    .pmain-custum {
+      margin-bottom: 200px;
+      height: 100px !important;
+      width: 400px;
+      position: absolute;
+      bottom: 25px;
+      
+    
+    }
+    .hmain-custum {
+    
+      height: 100px !important;
+      text-align: start !important;
+      width: 500px;
+      position: absolute;
+      top: 320px;
+      font-size: 3.6em;
+      left: -10px;
+     
+    
+       
+
+    }
+
+    .icon-custom {
+      position: absolute !important;
+      right: 50px !important;
+     
+    }
+
+    .nav-bg {
+      background-color: var(--background);
+    }
+
+    .livnav-custum {
+      
+      margin: 18px 20px;
+     
+    }
+
+    .div-nav-custum {
+      border-bottom: solid 2px var(--fonts-p) !important;
+    }
+
+    .icon-custom {
+      width: auto !important;
+      position: relative !important;
+      left: 2px;
+    
+    }
+
+    #count1-number {
+      font-size: 2rem !important;
+    }
+
+    #count2-number {
+      font-size: 2rem !important;
+    }
+
+    #count3-number {
+      font-size: 2rem !important;
+    }
+
+    #count4-number {
+      font-size: 2rem !important;
+    }
+
+    /* SECTION3 LG */
+    
+    .section3-h2 {
+      text-align: start !important;
+    
+    }
+
+    .section3-p { 
+      text-align: start !important;
+
+    }
+
+    .div-img-custum {
+      margin-top: 200px;
+    }
+
+    /* section 4 */
+
+
+    .row-sec4 { 
+      display: flex !important;
+      flex-wrap: wrap !important;
+      row-gap: 1rem !important;
+      column-gap: 1rem !important;
+      justify-content: space-between !important;
+
+      
+     
+
+}
+
+
+  .container-missile {
+    margin-top: 100px !important;
+  }
+
+  .col-sec4-custum {
+    display: flex ;
+    flex-direction: column !important;
+    text-align: center;
+    justify-content: end !important;
+    height: 300px;
+  }
+
+  .col-sec4-1 {
+    text-align: start !important;
+  } 
+
+  .h3sec4-custum {
+    text-align: start !important;
+    
+
+  }
+
+  .h3sec4-custum {
+    text-align: start;
+  }
+
+
+  .row-mirror > div { 
+    
+    justify-content: end !important;
+   
+
+  
+  }
+
+ /* footer */
+
+ .row-container-footer {
+   
+  height: 100vh !important;
+  
+  justify-content: end;
+ }
+
+ .text-footer {
+
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  flex-direction: column;
+ }
+
+ .p-footer {
+
+  text-align: start;
+ }
+
+
+    
+  }  
+
+ .div-custum-main {
+  height: 100vh !important;
+ }
+
+ 
+  /* BUTTOM */
+
+  .icon-custom {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    
+    
+  }
+
+  .i-arrow-custum {
+  
+    color: var(--fonts-h) !important;
+  }
+
+
+  /* Navbar */
+
+
+
+  a {
+    color: white !important;
+   
+  }
+
+
+  /* SECTION 2 */
+
+  .section2 {
+   
+    font-family: 'Zen Dots', cursive; /*robot*/
+
+    
+
+} 
+
+.col-custum-container {
+  border-bottom: 1px solid blue !important;
+  width: 300px;
+}
+
+
+
+
+.div-img-custum {
+
+  width: 600px !important;
+  height: 600px !important;
+}
+
+  
+/* section3 */
+
+.section3-h2 {
+  color: blue;
+} 
+
+
+/* section 4 */
+
+
+
+/* border class */
+
+.borderblue {
+  border-bottom: 1px solid blue !important;
+}
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+/* SECTION-6 MISSILE */
+
+.p-missile {
+  color: rgb(76, 75, 74);
+}
+
+.btn-custum {
+  position: relative;
+}
+
+
+.square-1-2 {
+  width: 10px;
+ height: 10px; 
+ border-left: 2px solid blue;
+ border-top: 2px solid blue;
+ position: absolute;
+ left: -3px;
+ bottom: 39px;
+ 
+}
+
+.square-1-2::after {
+ content: "";            
+ width: 10px;
+ height: 10px; 
+ border-right: 2px solid blue;
+ border-top: 2px solid blue;
+ position: absolute;
+ left: 86px;
+ bottom: 1px;
+
+}
+
+.square3-4 {
+ width: 10px;
+ height: 10px; 
+ border-left: 2px solid blue;
+ border-bottom: 2px solid blue;
+ position: absolute;
+ left: -3px;
+ top: 38px;
+ 
+}
+
+.square3-4::after {
+ content: "";
+ width: 10px;
+ height: 10px; 
+ border-right: 2px solid blue;
+ border-bottom: 2px solid blue; 
+ position: absolute;
+ left: 86px;
+ 
+
+}
+
+
+footer {
+
+ 
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.077), rgba(0, 0, 0, 0.691)), url(./img/sunrise-1765027_1920.jpg)!important;
+    background-size: cover !important;
+    background-position: center !important;
+    font-family: 'Zen Dots', cursive; /*robot*/
+    background-repeat: no-repeat !important;
+    height: 100vh;
+  
+    
+
+}
+
+.lin-gradient{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.304), rgb(26, 89, 234), rgba(0, 0, 0, 0.246));
+  width: 50%;
+  height: 5px;
+  
+ 
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
